@@ -1,0 +1,12 @@
+
+<suite name = "API Automation">
+    <listeners>
+        <listener class-name="org.example.reporting.Setup"/>
+    </listeners>
+
+    <test name="TestNg-Tests">
+        <classes>
+            <class name="com.example.tests.TestClass"/>
+        </classes>
+    </test>
+</suite>
